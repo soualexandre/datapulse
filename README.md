@@ -1,90 +1,91 @@
-<a href="https://precedent.dev">
-  <img alt="Precedent – Building blocks for your Next project" src="https://precedent.dev/api/og">
-  <h1 align="center">Precedent</h1>
-</a>
+<div align="center">
+  <img alt="NutriTrack logo" src="/public/nutritrack.svg" width="100" />
+</div>
 
-<p align="center">
-  Nós podemos te ajudar a aumentar seu faturamento com análise de dados.
-</p>
+<h1 align="center">
+  NutriTrack - Avenue Labs landing page template 🚀
+</h1>
 
-<p align="center">
-  <a href="https://twitter.com/steventey">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
-  </a>
-  <a href="https://github.com/steven-tey/precedent">
-    <img src="https://img.shields.io/github/stars/steven-tey/precedent?label=steven-tey%2Fprecedent" alt="Precedent repo star count" />
-  </a>
-</p>
+NutriTrack is a customizable NextJS and TailwindCSS landing page template that offers personalized styling and easy customization. Tailored to provide a minimal design, it allows you to effortlessly create a site that suits your requirements. You can easily make use of the components and customize the code to mix and match to suit your needs.
 
-<p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#one-click-deploy"><strong>One-click Deploy</strong></a> ·
-  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
-</p>
-<br/>
+<hr>
 
-## Introduction
+![NutriTrack Mockup](/public/nutritrack.png)
 
-Precedent is an opinionated collection of components, hooks, and utilities for your Next.js project.
+## Key Features:
 
-## One-click Deploy
+-   Minimal styling (make it your own!)
+-   Accessible, semantic HTML markup
+-   Blazingly Fast
+-   100/100 Lighthouse performance
+-   Responsive & SEO-friendly with canonical URLs, OpenGraph data and Meta tags.
+-   Sitemap support
+-   Made with NextJS and TailwindCSS
 
-You can deploy this template to Vercel with the button below:
+## Deploy your own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fprecedent&project-name=precedent&repository-name=precedent&demo-title=Precedent&demo-description=An%20opinionated%20collection%20of%20components%2C%20hooks%2C%20and%20utilities%20for%20your%20Next%20project.&demo-url=https%3A%2F%2Fprecedent.dev&demo-image=https%3A%2F%2Fprecedent.dev%2Fapi%2Fog&env=DATABASE_URL,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_SECRET&envDescription=How%20to%20get%20these%20env%20variables%3A&envLink=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fprecedent%2Fblob%2Fmain%2F.env.example)
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-You can also clone & create this repo locally with the following command:
+If you want to deploy on Netlify, use the following build command under site settings:
 
 ```bash
-npx create-next-app precedent --example "https://github.com/steven-tey/precedent"
+npm run build
 ```
 
-## Tech Stack + Features
+You also want to make sure the publish directory is out.
 
-https://user-images.githubusercontent.com/28986134/212368288-12f41e37-aa8c-4e0a-a542-cf6d23410a65.mp4
+## Lighthouse Score
 
-### Frameworks
+NutriTrack scores 100/100 in the Lighthouse performance audit.
 
-- [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
-- [Auth.js](https://authjs.dev/) – Handle user authentication with ease with providers like Google, Twitter, GitHub, etc.
-- [Prisma](https://www.prisma.io/) – Typescript-first ORM for Node.js
+![NutriTrack Lighthouse Score](/lighthouse-score.png)
 
-### Platforms
+## Demo
 
-- [Vercel](https://vercel.com/) – Easily preview & deploy changes with git
-- [Railway](https://railway.app/) – Easily provision a PostgreSQL database (no login required)
+Check out the [Demo](https://nutritrack.avenuelabs.co/), hosted on Vercel.
 
-### UI
+## Commands
 
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
-- [Radix](https://www.radix-ui.com/) – Primitives like modal, popover, etc. to build a stellar user experience
-- [Framer Motion](https://framer.com/motion) – Motion library for React to animate components with ease
-- [Lucide](https://lucide.dev/) – Beautifully simple, pixel-perfect icons
-- [`@next/font`](https://nextjs.org/docs/basic-features/font-optimization) – Optimize custom fonts and remove external network requests for improved performance
-- [`@vercel/og`](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation) – Generate dynamic Open Graph images on the edge
-- [`react-wrap-balancer`](https://github.com/shuding/react-wrap-balancer) – Simple React component that makes titles more readable
+All commands are run from the root of the project, from a terminal:
 
-### Hooks and Utilities
+| Command         | Action                                       |
+| :-------------- | :------------------------------------------- |
+| `npm install`   | Installs dependencies                        |
+| `npm run dev`   | Starts local dev server at `localhost:3000`  |
+| `npm run build` | Build your production site to `./next/`      |
+| `npm run start` | Preview your build locally, before deploying |
 
-- `useIntersectionObserver` –  React hook to observe when an element enters or leaves the viewport
-- `useLocalStorage` – Persist data in the browser's local storage
-- `useScroll` – React hook to observe scroll position ([example](https://github.com/steven-tey/precedent/blob/main/components/layout/index.tsx#L25))
-- `nFormatter` – Format numbers with suffixes like `1.2k` or `1.2M`
-- `capitalize` – Capitalize the first letter of a string
-- `truncate` – Truncate a string to a specified length
-- [`use-debounce`](https://www.npmjs.com/package/use-debounce) – Debounce a function call / state update
+## Update Site Metadata
 
-### Code Quality
+```js
+env: {
+  siteTitle: 'Your Company',
+  siteDescription: 'Your company description.',
+  siteKeywords: 'your company keywords',
+  siteUrl: 'https://nutritrack.avenuelabs.co/',
+  siteImagePreviewUrl: '/images/preview.jpeg',
+  twitterHandle: '@your_handle'
+}
+```
 
-- [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
-- [Prettier](https://prettier.io/) – Opinionated code formatter for consistent code style
-- [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript
+## Update Colors
 
-### Miscellaneous
+You can update the colors in tailwind.config.js file.
 
-- [Vercel Analytics](https://vercel.com/analytics) – Track unique visitors, pageviews, and more in a privacy-friendly way
+## Update Favicon
 
-## Author
+Update the manifest.json file and the icons under the public/images/icons folder.
 
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
+
+## License
+
+Licensed under the MIT License, Copyright © 2023
+
+## Feedback and Suggestions
+
+If you have any suggestions/feedback, you can contact the creator, Christian Luntok, via [hey@avenuelabs.co](mailto:hey@avenuelabs.co). Alternatively, feel free to open an issue if you find bugs or want to request new features.
+
+---
+
+Made by [Christian Luntok - Avenue Labs](https://avenuelabs.co/)

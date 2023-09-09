@@ -6,19 +6,29 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Tickets de atendimento de whatsapp",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Revolucione o Atendimento ao Cliente pelo WhatsApp! Nosso sistema CRM com gerenciamento de tickets é a solução definitiva para transformar consultas em conversões.Com uma interface intuitiva, automatização inteligente e análise de dados avançada, oferecemos uma experiência incomparável para sua equipe e seus clientes.Aumente a eficiência do seu atendimento, aumente a satisfação do cliente e impulsione as vendas como nunca antes.Experimente agora e leve seu atendimento pelo WhatsApp para o próximo nível!",
         align: "right",
-        image: "/features1.png"
+        image: "/ticket.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Chatbot pesonalizado",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "Nossa solução inovadora simplifica o engajamento com os clientes, economizando tempo e recursos preciosos. Descubra como o chatbot pode ser seu melhor aliado na conversão de leads, proporcionando respostas rápidas, direcionando clientes em potencial pelo funil de vendas e impulsionando suas taxas de conversão. Prepare-se para uma revolução no atendimento ao cliente e no crescimento do seu negócio. Experimente agora e veja seus leads se transformarem em clientes satisfeitos",
         align: "left",
-        image: "/features2.png"
+        image: "/ticket.png"
+
+    },
+    {
+        id: uuid(),
+        title: "Agendamento de mensagens em massa",
+        content:
+            "Potencialize sua Comunicação no WhatsApp! Com nosso sistema CRM de agendamento de mensagens em massa, você pode enviar não apenas texto, mas também vídeos, imagens e áudios programados de forma eficiente. Automatize campanhas, promova produtos e serviços, e mantenha seus clientes engajados de forma conveniente e envolvente. Simplifique o processo de comunicação, economize tempo e alcance um público mais amplo com mensagens multimídia. Descubra como nossa solução pode aumentar seu alcance, melhorar seu marketing e impulsionar suas conversões. Experimente agora e eleve sua estratégia de comunicação no WhatsApp para outro patamar!",
+        align: "right",
+        image: "/ticket.png"
+
     }
 ];
 
@@ -32,9 +42,8 @@ export const ContentImage = () => {
                     className="process-item--container grid md:grid-cols-2 gap-y-8"
                 >
                     <div
-                        className={`process-item--image rounded-3xl ${
-                            item.align === "left" ? "md:order-1" : ""
-                        }`}
+                        className={`process-item--image rounded-3xl ${item.align === "left" ? "md:order-1" : ""
+                            }`}
                     >
                         <Image
                             src={item.image}
@@ -46,11 +55,10 @@ export const ContentImage = () => {
                         />
                     </div>
                     <div
-                        className={`process-item--content ${
-                            item.align === "left"
-                                ? "md:pr-16 lg:pr-24 xl:pr-32 ml-auto"
-                                : "md:pl-16 lg:pl-24 xl:pl-32  mr-auto"
-                        } my-auto content text-black/60`}
+                        className={`process-item--content ${item.align === "left"
+                            ? "md:pr-16 lg:pr-24 xl:pr-32 ml-auto"
+                            : "md:pl-16 lg:pl-24 xl:pl-32  mr-auto"
+                            } my-auto content text-black/60`}
                     >
                         <h3 className="mb-6 h4 md:h3 font-semibold text-black">
                             {item.title}

@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 const navigation = [
     { name: "Funcionalidades", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+    // { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
     { name: "Dúvidas", to: "#faq", href: "/#faq" },
     {
         name: "Contato",

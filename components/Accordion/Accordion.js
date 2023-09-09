@@ -7,37 +7,37 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "Como o sistema de agendamento de horários pode beneficiar minha empresa?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            " Nosso sistema permite que você organize e gerencie os horários de atendimento de forma eficaz, evitando sobrecargas e garantindo que seus clientes recebam atenção quando mais precisam. Isso melhora a eficiência, a satisfação do cliente e ajuda a maximizar o potencial de conversão"
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "É fácil personalizar minha agenda de atendimento com esse sistema?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            " Sim, nossa plataforma é projetada para simplificar a personalização da agenda. Você pode facilmente definir horários de disponibilidade e inatividade de acordo com suas necessidades, garantindo que sua equipe esteja pronta para atender os clientes nos momentos ideais."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
+        title: "Como o sistema ajuda a evitar conflitos de horários e sobrecarga da equipe?",
         isOpen: false,
-        content: "No, this is free."
+        content: "Nosso sistema possui recursos de gestão que evitam conflitos de horários e sobrecarga da equipe. Ele alerta sobre horários sobrepostos e permite que você distribua tarefas de forma equilibrada, garantindo que cada membro da equipe tenha uma carga de trabalho gerenciável."
     },
     {
         id: uuid(),
-        title: "What will I get when I buy this template?",
-        isOpen: false,
-        content:
-            "When you purchase this template, you will receive a customizable NextJS landing page template built with TailwindCSS, allowing you to create a personalized and visually stunning landing page for your Notion workspace. The template comes with the necessary setup and documentation to help you get started quickly."
-    },
-    {
-        id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: " O sistema é compatível com outras ferramentas de CRM que minha empresa já utiliza?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "Sim, nosso sistema é projetado para integração fácil e flexível com outras ferramentas de CRM. Isso permite que você mantenha seus dados centralizados e garante uma experiência de atendimento ainda mais eficaz e integrada para seus clientes."
+    },
+    {
+        id: uuid(),
+        title: "Como posso acompanhar o desempenho do atendimento com esse sistema?",
+        isOpen: false,
+        content:
+            " Nosso sistema fornece análises detalhadas sobre o desempenho do atendimento, incluindo métricas de tempo de resposta, eficiência da equipe e satisfação do cliente. Isso ajuda você a identificar áreas de melhoria e aprimorar constantemente seu atendimento."
     }
 ];
 

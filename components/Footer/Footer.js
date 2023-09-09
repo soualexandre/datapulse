@@ -9,40 +9,36 @@ const DATA = [
         title: "Template",
         items: [
             {
-                label: "Features",
+                label: "fincionalidades",
                 href: "#features"
             },
             {
-                label: "Testimonials",
-                href: "#testimonials"
-            },
-            {
-                label: "FAQ",
+                label: "Dúvidas",
                 href: "#faq"
             }
         ]
     },
     {
-        title: "Company",
+        title: "Sobre a empresa",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
+                label: "Sobre",
                 href: "https://github.com/christian-luntok/",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                href: "#",
                 target: "_blank"
             },
             {
-                label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                label: "youtube",
+                href: "#",
+                target: "_blank"
+            },
+            {
+                label: "Linkedin",
+                href: "#",
                 target: "_blank"
             }
         ]
@@ -127,15 +123,15 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
+                        © {year} DataPulse{" - "}
                         <span className="font-normal">
-                            A template by{" "}
+                            Criado por{" "}
                             <Link
                                 className="transition-colors duration-300 hover:underline"
-                                href="https://cjluntok.com"
+                                href="https://www.linkedin.com/in/soualexandre/"
                                 target="_blank"
                             >
-                                Christian Luntok.
+                                Alexandre Souza
                             </Link>
                         </span>
                     </p>

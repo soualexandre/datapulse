@@ -41,16 +41,15 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                Potencialize a Proximidade
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    Somos uma empresa de análise de dados CRM com um sistema CRM próprio.
+                                    Nosso foco é criar relações humanizadas entre empresas e seus clientes.
+                                    Nossa plataforma personalizada transforma dados em conexões genuínas,
+                                    capacitando as empresas a compreenderem melhor seus clientes e a oferecerem
+                                    experiências excepcionais em todos os momentos.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -62,65 +61,53 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                                <BadgeMessage>Mais funcionalidades</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Tudo o que você precisa para cativar o seu cliente
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Descubra a Solução Completa que Seu Negócio Precisa! Nosso sistema CRM oferece todas as funcionalidades essenciais para que sua empresa alcance o sucesso. Desde o agendamento de horários até a gestão de tarefas e análise de dados, nossa plataforma é projetada para atender a todas as suas necessidades. Melhore a eficiência, a satisfação do cliente e maximize o potencial de conversão. Seus clientes vão adorar a experiência aprimorada que você pode oferecer com nosso sistema. Experimente agora e leve seu negócio ao próximo nível com uma solução que todos vão amar!
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features4.png"
+                                            src="/ticket.png"
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Kanban (modelo trello)
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+
+                                            "Organize Tarefas com Facilidade! Nosso sistema CRM oferece uma visão Kanban semelhante ao Trello,
+                                            permitindo uma gestão intuitiva de tarefas e projetos. Acompanhe o progresso, defina prioridades
+                                            e melhore a eficiência da equipe.
+                                            Experimente agora e simplifique seu fluxo de trabalho!
                                         </p>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features3.png"
+                                            src="/ticket.png"
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Horário de atendimento
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            Controle seus horários de atendimento com facilidade!
+                                            Nosso sistema CRM permite personalizar agendas, definir disponibilidade
+                                            e oferecer atendimento de qualidade.
+                                            Otimize a eficiência e experimente agora para melhorar seu atendimento!
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -128,7 +115,7 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
-                    <MotionBTTContainer
+                    {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer
@@ -145,7 +132,7 @@ export default function Home() {
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
-                    </MotionBTTContainer>
+                    </MotionBTTContainer> */}
                     {/* Accordions */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
@@ -158,10 +145,9 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
+                                Perguntas recorrentes sobre o nosso sistema{" "}
                                 <br></br>
-                                <br></br>No worries! We&apos;ve got the answers
-                                you need:
+
                             </PageTitle>
                             <Accordion />
                         </SectionContainer>

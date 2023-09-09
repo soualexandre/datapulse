@@ -30,7 +30,7 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <Link
                             role="button"
-                            href="#"
+                            href="/"
                             className="btn btn--secondary lemonsqueezy-button ml-4"
                         >
                             Entrar

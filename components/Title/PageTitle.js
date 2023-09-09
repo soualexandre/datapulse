@@ -6,12 +6,11 @@ const titleVariant = {
     default: "text-3xl lg:text-5xl"
 };
 export const PageTitle = ({ children, className = "", type = "" }) => {
-    const titleClass = clsx("h2 font-semibold", titleVariant[type], className);
+    const titleClass = clsx("h4 font-semibold", titleVariant[type], className);
     return (
         <SectionContainer
-            className={`page-title--content max-w-3xl ${
-                className && className
-            }`}
+            className={`page-title--content max-w-4xl ${className && className
+                }`}
         >
             <h1 className={titleClass}>{children}</h1>
         </SectionContainer>

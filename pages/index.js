@@ -87,7 +87,7 @@ export default function Home() {
                                         </CardHeader>
                                         <p>
 
-                                            "Organize Tarefas com Facilidade! Nosso sistema CRM oferece uma visão Kanban semelhante ao Trello,
+                                            Organize Tarefas com Facilidade! Nosso sistema CRM oferece uma visão Kanban semelhante ao Trello,
                                             permitindo uma gestão intuitiva de tarefas e projetos. Acompanhe o progresso, defina prioridades
                                             e melhore a eficiência da equipe.
                                             Experimente agora e simplifique seu fluxo de trabalho!
@@ -114,26 +114,6 @@ export default function Home() {
                             </CardGroup>
                         </SectionContainer>
                     </MotionBTTContainer>
-                    {/* Testimonials */}
-                    {/* <MotionBTTContainer
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                        <SectionContainer
-                            id="testimonials"
-                            className="benefits"
-                        >
-                            <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
-                            <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
-                            </PageTitle>
-                            <Columns />
-                        </SectionContainer>
-                    </MotionBTTContainer> */}
-                    {/* Accordions */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >

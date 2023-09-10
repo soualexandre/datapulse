@@ -21,7 +21,7 @@ export const HomeBanner = () => {
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Sistema que entrega Dados Poderosos, Relações Fortalecidas, Negócio de Sucesso!
+                        Transforme Clientes em Fãs! Nosso sistema vai fazer você amar sua própria empresa. Descubra como no botão abaixo.
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
@@ -35,7 +35,7 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Funcionalidades</Button>
+                            <Button href="#features">Conhecer</Button>
                             <a
                                 role="button"
                                 href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"

@@ -21,7 +21,7 @@ export const HomeBanner = () => {
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Transforme Clientes em Fãs! Nosso sistema vai fazer você amar sua própria empresa. Descubra como no botão abaixo.
+                        Transforme Clientes em Fãs! Nosso sistema vai fazer o cliente amar a sua empresa.
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}

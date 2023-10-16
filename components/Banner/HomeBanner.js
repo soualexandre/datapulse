@@ -29,11 +29,11 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Agendar reunião</Button>
+                            <Button className="" href="#features">Agendar reunião</Button>
                             <a
                                 role="button"
                                 href="#"
-                                className="btn btn--secondary lemonsqueezy-button"
+                                className="btn bg-datablue text-white lemonsqueezy-button"
                             >
                                 Receba uma propsta
                                 <Icon icon="material-symbols:arrow-forward-rounded" />

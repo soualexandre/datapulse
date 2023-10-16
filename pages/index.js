@@ -24,7 +24,7 @@ export default function Home() {
                 title="Datapulse - Com Dados Poderosos, Construímos Relações Fortalecidas e Negócios de Sucesso! 🚀"
                 description="Discover NutriTrack, Com Dados Poderosos, Construímos Relações Fortalecidas e Negócios de Sucesso!"
             />
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
+            <div className="main-wrapper text-gray-100 bg-[#101010] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
                 <HomeBanner />
                 {/* Components Container */}
@@ -82,7 +82,7 @@ export default function Home() {
                                             src="/ticket.png"
                                             alt="Customizable Layouts image used."
                                         />
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                        <CardHeader className="!text-gray-100 !text-2xl !font-bold">
                                             Kanban (modelo trello)
                                         </CardHeader>
                                         <p>
@@ -100,7 +100,7 @@ export default function Home() {
                                             src="/ticket.png"
                                             alt="Progress Tracking image used."
                                         />
-                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                        <CardHeader className="!text-gray-100 !text-2xl !font-bold">
                                             Horário de atendimento
                                         </CardHeader>
                                         <p>

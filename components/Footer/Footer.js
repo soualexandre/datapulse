@@ -50,7 +50,7 @@ export const Footer = () => {
     const year = date.getFullYear();
 
     return (
-        <footer id="footer" className="bg-white">
+        <footer id="footer" className="bg-black text-white">
             {/* Footer Links */}
             <SectionContainer className="footer--container wrap wrap-px relative z-10">
                 <div className="footer--content-container py-16">
@@ -87,7 +87,7 @@ export const Footer = () => {
                                         key={footerLinks.title}
                                         className="footer-menu--container col-span-1 md:col-span-4"
                                     >
-                                        <h3 className="font-bold text-base mb-2">
+                                        <h3 className="font-bold text-base  mb-2">
                                             {footerLinks.title}
                                         </h3>
                                         <ul className="footer-menu--list">
@@ -98,7 +98,7 @@ export const Footer = () => {
                                                         className="footer-menu--list-item gap-2"
                                                     >
                                                         <a
-                                                            className="mb-2 block w-auto font-medium transition-colors duration-300 hover:underline"
+                                                            className="mb-2 block w-auto text-white font-medium transition-colors duration-300 hover:underline"
                                                             href={
                                                                 footerItem.href
                                                             }

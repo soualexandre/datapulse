@@ -10,38 +10,32 @@ import Image from "next/image";
 export const HomeBanner = () => {
     return (
         <SectionContainer className="page-banner--container py-16">
-            <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
+            <SectionContainer className="page-banner--inner-container  wrap wrap-px z-10">
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
-                    <BadgeGroup alignment="center">
-                        <BadgeMessage>Conheça nosso sistema</BadgeMessage>
-                        <BadgeIcon icon="game-icons:meal" />
-                    </BadgeGroup>
                 </MotionBTTContainer>
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-                    <PageTitle className="text-center mx-auto" type="heavy">
-                        Transforme Clientes em Fãs! Nosso sistema vai fazer o cliente amar a sua empresa.
+                    <PageTitle className="text-center mt-8 text-4x mx-auto" type="heavy">
+                        Transformamos dados em decisões através do BI.
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
-                    <Content className="text-center" alignment="center">
+                    <Content className="text-center text-gray-200" alignment="center">
                         <p>
-                            Somos especialistas em análise de dados de CRM. Fortalecemos
-                            relações e impulsionamos negócios com insights poderosos.
-                            Aumente sua eficiência e satisfação do cliente conosco!
+                            Mais decisões. Melhores análises. Menos tempo.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Conhecer</Button>
+                            <Button href="#features">Agendar reunião</Button>
                             <a
                                 role="button"
                                 href="#"
                                 className="btn btn--secondary lemonsqueezy-button"
                             >
-                                Comprar
+                                Receba uma propsta
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
@@ -51,8 +45,8 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
                         <Image
-                            src="/notebook.png"
-                            width={1024}
+                            src="/note-morelate.png"
+                            width={1533}
                             height={680}
                             alt="Page Banner"
                             objectFit="cover"

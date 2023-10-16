@@ -59,11 +59,12 @@ module.exports = {
                     {
                         lineHeight: "1.5rem"
                     }
-                ]
+                ],
+                '4x': '4rem',
             },
             colors: {
                 black: {
-                    DEFAULT: "#000000",
+                    DEFAULT: "#101010",
                     50: "#E6E6E6",
                     100: "#CCCCCC",
                     200: "#999999",
@@ -73,7 +74,9 @@ module.exports = {
                     600: "#000000",
                     700: "#000000",
                     800: "#000000",
-                    900: "#000000"
+                    900: "#000000",
+                    1000: "#101010",
+
                 },
                 white: {
                     DEFAULT: "#FFFFFF",

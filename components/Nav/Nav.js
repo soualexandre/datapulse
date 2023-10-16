@@ -40,7 +40,7 @@ export const Nav = () => {
                     />
                 </button>
                 <div
-                    className={`header-nav--menu-container z-20 ${isNavOpen ? "show" : "hide"
+                    className={` header-nav--menu-container z-20 ${isNavOpen ? "show" : "hide"
                         }`}
                     id="navbar-default"
                 >
@@ -48,13 +48,13 @@ export const Nav = () => {
                         {navigation.map((item) => (
                             <li
                                 key={item.name}
-                                className="header-nav--menu-item"
+                                className="header-nav--menu-item text-white"
                             >
                                 <a
                                     key={item.name}
                                     to={item.to}
                                     href={item.href}
-                                    className={`menu-item--link flex items-center
+                                    className={`menu-item--link text-white flex items-center
                     ${router.pathname === item.href ? "active" : ""}
                   `}
                                     onClick={closeNav}

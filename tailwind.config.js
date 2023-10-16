@@ -118,6 +118,8 @@ module.exports = {
                     950: "#663D00",
                 },
                 datablue: "#0F4073",
+                datablueSecondary: "#366590",
+                dataGreen: "#57A04F",
                 badge: "#F1F5F9",
                 badgeText: "#475569"
             }

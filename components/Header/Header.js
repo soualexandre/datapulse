@@ -31,7 +31,7 @@ export const Header = () => {
                         <Link
                             role="button"
                             href="/"
-                            className="btn bg-datablue text-white lemonsqueezy-button ml-4"
+                            className="btn bg-datablue text-white hover:bg-datablueSecondary lemonsqueezy-button ml-4"
                         >
                             Fale conosco
                             <Icon icon="material-symbols:arrow-forward-rounded" />

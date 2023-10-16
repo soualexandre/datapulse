@@ -30,8 +30,8 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <Link
                             role="button"
-                            href="/"
-                            className="btn bg-datablue text-white hover:bg-datablueSecondary lemonsqueezy-button ml-4"
+                            href="https://wa.me/5563984886628"
+                            className="btn bg-datablue text-white hover:bg-datablueSecondary  ml-4"
                         >
                             Fale conosco
                             <Icon icon="material-symbols:arrow-forward-rounded" />

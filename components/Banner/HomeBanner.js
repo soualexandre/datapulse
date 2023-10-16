@@ -6,6 +6,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const HomeBanner = () => {
     return (
@@ -29,7 +30,9 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button className="hover:bg-dataGreen hover:text-white" href="#features">Agendar reunião</Button>
+
+                            <Button className="hover:bg-dataGreen mr-2 hover:text-white" href="https://wa.me/5563984886628">Agendar reunião</Button>
+
                             <a
                                 role="button"
                                 href="#"

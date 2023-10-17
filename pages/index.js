@@ -43,7 +43,7 @@ export default function Home() {
                             >
                                 Potencialize a Proximidade
                             </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            <Content className="text-center text-white" alignment="center">
                                 <p>
                                     Somos uma empresa de análise de dados CRM com um sistema CRM próprio.
                                     Nosso foco é criar relações humanizadas entre empresas e seus clientes.
@@ -59,30 +59,30 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer className="feature-tabs">
+                        <SectionContainer className="feature-tabs text-white">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Mais funcionalidades</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
-                                className="text-center mx-auto"
+                                className="text-center mx-auto text-white"
                                 type="default"
                             >
                                 Tudo o que você precisa para cativar o seu cliente
                             </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            <Content className="text-center text-white" alignment="center">
                                 <p>
                                     Descubra a Solução Completa que Seu Negócio Precisa! Nosso sistema CRM oferece todas as funcionalidades essenciais para que sua empresa alcance o sucesso. Desde o agendamento de horários até a gestão de tarefas e análise de dados, nossa plataforma é projetada para atender a todas as suas necessidades. Melhore a eficiência, a satisfação do cliente e maximize o potencial de conversão. Seus clientes vão adorar a experiência aprimorada que você pode oferecer com nosso sistema. Experimente agora e leve seu negócio ao próximo nível com uma solução que todos vão amar!
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
-                                    <CardBody className="w-full bg-white-600/20 p-12">
+                                    <CardBody className="w-full bg-white-600/20 text-white p-12">
                                         <CardImage
                                             src="/ticket.png"
                                             alt="Customizable Layouts image used."
                                         />
-                                        <CardHeader className="!text-gray-100 !text-2xl !font-bold">
+                                        <CardHeader className="!text-gray-100 !text-2xl text-white !font-bold">
                                             Kanban (modelo trello)
                                         </CardHeader>
                                         <p>

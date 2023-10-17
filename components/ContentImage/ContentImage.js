@@ -34,12 +34,12 @@ const ContentImageData = [
 
 export const ContentImage = () => {
     return (
-        <SectionContainer className="process-items mt-16 space-y-16">
+        <SectionContainer className="process-items mt-16 text-white space-y-16">
             {ContentImageData.map((item) => (
                 <div
                     id={item.id}
                     key={item.id}
-                    className="process-item--container grid md:grid-cols-2 gap-y-8"
+                    className="process-item--container text-white grid md:grid-cols-2 gap-y-8"
                 >
                     <div
                         className={`process-item--image rounded-3xl ${item.align === "left" ? "md:order-1" : ""
@@ -70,7 +70,7 @@ export const ContentImage = () => {
                                     <li
                                         id={listItem.id}
                                         key={listItem.id}
-                                        className="inline-grid grid-flow-col-dense"
+                                        className="inline-grid grid-flow-col-dense text-white"
                                     >
                                         <Icon
                                             icon="ph:seal-check-bold"

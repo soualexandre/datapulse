@@ -14,7 +14,7 @@ export const Header = () => {
             <SectionContainer className="header--container wrap wrap-px ">
                 <div className=" header-logo--container">
                     <h1 className=" flex justify-center aligm-center text-white logo mb-0">
-                        <Link className="flex align-center items-center text-xl" href="/">
+                        <Link className="flex align-center items-center text-lg font-black" href="/">
                             <Image
                                 src="/icon-datapulse.png"
                                 alt="logo"
@@ -23,7 +23,6 @@ export const Header = () => {
                                 width={40}
                             />
                             Datapulse
-                            <span className="text-xl text-dataGreen">.</span>
                         </Link>
                     </h1>
                 </div>

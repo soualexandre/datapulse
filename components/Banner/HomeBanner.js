@@ -35,7 +35,7 @@ export const HomeBanner = () => {
 
                             <a
                                 role="button"
-                                href="#"
+                                href="https://forms.gle/BVj9PbTK2vHEvihy7"
                                 className="btn bg-datablue text-white hover:bg-datablueSecondary lemonsqueezy-button"
                             >
                                 Receba uma propsta

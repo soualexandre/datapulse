@@ -58,7 +58,7 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer className="feature-tabs text-white">
+                        <SectionContainer id="service" className="feature-tabs text-white">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Mais funcionalidades</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
@@ -67,7 +67,7 @@ export default function Home() {
                                 className="text-center mx-auto text-white"
                                 type="default"
                             >
-                                Tudo o que você precisa para cativar o seu cliente
+                                Serviços
                             </PageTitle>
                             <Content className="text-center text-white" alignment="center">
                                 <p>

@@ -59,7 +59,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
                                     <Image
-                                        src="/pulse.png"
+                                        src="/icon-datapulse.png"
                                         alt="logo"
                                         className="h-10 w-auto"
                                         height="80"

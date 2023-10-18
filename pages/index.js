@@ -41,15 +41,14 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Potencialize a Proximidade
+                                Quem somos?
                             </PageTitle>
                             <Content className="text-center text-white" alignment="center">
                                 <p>
-                                    Somos uma empresa de análise de dados CRM com um sistema CRM próprio.
-                                    Nosso foco é criar relações humanizadas entre empresas e seus clientes.
-                                    Nossa plataforma personalizada transforma dados em conexões genuínas,
-                                    capacitando as empresas a compreenderem melhor seus clientes e a oferecerem
-                                    experiências excepcionais em todos os momentos.
+                                    Descubra a excelência em análise de dados com a Datapulse. Somos especialistas gestão
+                                    financeira e análise de cliente. Oferecemos insights precisos para potencializar seu sucesso. Na vanguarda
+                                    da inovação, garantimos seriedade e integridade em cada análise. Escolha a Datapulse
+                                    para uma gestão financeira eficiente e confiável. Seja proativo, alcance o sucesso.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -79,7 +78,7 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 text-white p-12">
                                         <CardImage
-                                            src="/ticket.png"
+                                            src="/note-morelate.png"
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-gray-100 !text-2xl text-white !font-bold">
@@ -97,7 +96,7 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/ticket.png"
+                                            src="/note-morelate.png"
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-gray-100 !text-2xl !font-bold">

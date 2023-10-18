@@ -49,12 +49,11 @@ export const AppLayout = ({ children }) => {
                                         >
                                             <Link
                                                 href={item.href}
-                                                className={`rounded-lg text-sm h-10 w-full text-neutral-700 font-medium flex relative text-left items-center py-2 justify-center transition hover:bg-neutral-200 ${
-                                                    router.pathname ===
-                                                    item.href
+                                                className={`rounded-lg text-sm h-10 w-full text-neutral-700 font-medium flex relative text-left items-center py-2 justify-center transition hover:bg-neutral-200 ${router.pathname ===
+                                                        item.href
                                                         ? "active bg-neutral-200"
                                                         : ""
-                                                }`}
+                                                    }`}
                                             >
                                                 <div className="app-nav--icon inline-flex justify-center text-neutral-700 min-w-[40px] flex-shrink-0 cursor-pointer">
                                                     <Icon

@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <header
             id="header"
-            className="header  fixed left-0 w-full z-30 top-0 bg-black-1000"
+            className="header  fixed left-0 w-full z-30 top-0 bg-[#000000]"
         >
             <SectionContainer className="header--container wrap wrap-px ">
                 <div className=" header-logo--container">

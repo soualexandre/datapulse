@@ -30,11 +30,17 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-
-                            <Button className="hover:bg-dataGreen mr-2 hover:text-white" href="https://wa.me/5563984886628">Agendar reunião</Button>
+                            <Button
+                                className="hover:bg-dataGreen mr-2 hover:text-white"
+                                href="https://wa.me/5563984886628"
+                                target="_blank" r
+                                el="noopener noreferrer">
+                                Agendar reunião
+                            </Button>
 
                             <a
                                 role="button"
+                                target="_blank" rel="noopener noreferrer"
                                 href="https://forms.gle/BVj9PbTK2vHEvihy7"
                                 className="btn bg-datablue text-white hover:bg-datablueSecondary lemonsqueezy-button"
                             >
@@ -48,9 +54,9 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
                         <Image
-                            src="/note-morelate.png"
-                            width={1533}
-                            height={680}
+                            src="/note-home.png"
+                            width={1933}
+                            height={700}
                             alt="Page Banner"
                             objectFit="cover"
                             className="mx-auto"

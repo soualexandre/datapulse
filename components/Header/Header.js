@@ -16,11 +16,11 @@ export const Header = () => {
                     <h1 className=" flex justify-center aligm-center text-white logo mb-0">
                         <Link className="flex align-center items-center text-lg font-black" href="/">
                             <Image
-                                src="/icon-datapulse.png"
+                                src="/logo-icon1.png"
                                 alt="logo"
-                                className="h-8 mr-2"
-                                height={400}
-                                width={32}
+                                className="h-9  mr-2"
+                                height={40}
+                                width={45}
                             />
                             Datapulse
                         </Link>

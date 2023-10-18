@@ -47,24 +47,24 @@ const SEO = ({ title, description, keywords }) => {
             <link
                 rel="apple-touch-icon"
                 sizes="180x180"
-                href="/icon-datapulse.png"
+                href="/logo-icon1.png"
             />
             <link
                 rel="icon"
                 type="image/png"
                 sizes="32x32"
-                href="/icon-datapulse.png"
+                href="/logo-icon1.png"
             />
             <link
                 rel="icon"
                 type="image/png"
                 sizes="16x16"
-                href="/icon-datapulse.png"
+                href="/logo-icon1.png"
             />
             <link rel="manifest" href="/site.webmanifest" />
             <link
                 rel="mask-icon"
-                href="/icon-datapulse.png"
+                href="/logo-icon1.png"
                 color="#5bbad5"
             />
             {/* Title */}

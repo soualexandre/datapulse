@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Datapulse - Com Dados Poderosos, Construímos Relações Fortalecidas e Negócios de Sucesso! 🚀"
-                description="Discover NutriTrack, Com Dados Poderosos, Construímos Relações Fortalecidas e Negócios de Sucesso!"
+                title="Mais decisões. Melhores análises. Menos tempo."
+                description="Potencialize sua empresa com análises de dados extraordinárias! Mais decisões. Melhores análises. Menos tempo. Desbloqueie o poder dos seus dados conosco."
             />
             <div className="main-wrapper text-gray-100 bg-[#101010] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}

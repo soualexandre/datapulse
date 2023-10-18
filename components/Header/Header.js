@@ -20,7 +20,7 @@ export const Header = () => {
                                 alt="logo"
                                 className="h-9  mr-2"
                                 height={40}
-                                width={45}
+                                width={40}
                             />
                             Datapulse
                         </Link>

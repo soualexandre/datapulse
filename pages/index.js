@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Mais decisões. Melhores análises. Menos tempo."
+                title="Datapulse - Mais decisões. Melhores análises. Menos tempo."
                 description="Potencialize sua empresa com análises de dados extraordinárias! Mais decisões. Melhores análises. Menos tempo. Desbloqueie o poder dos seus dados conosco."
             />
             <div className="main-wrapper text-gray-100 bg-[#101010] relative z-10 pb-20 pt-20 ">
